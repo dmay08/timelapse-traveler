@@ -1,0 +1,10 @@
+.NavBar {
+    height: 50px;
+    background: rgb(157, 157, 157);
+}
+
+.NavBar p {
+    margin: 0;
+    padding: 15px;
+
+}
