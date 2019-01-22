@@ -7,7 +7,13 @@ const Main = (props) => {
             <div id="one"></div>
 
 <div id="wrap">
-  <div id="two"></div>
+  <div id="my-info"></div>
+  <div id="title-wrap">
+    <div class="title-line" id="title-line-left"></div>
+    <h1 id="recent-video-text">Recent Videos</h1>
+    <div class="title-line" id="title-line-right"></div>
+  </div>
+
 </div>
 
 <div id="outer-video-wrap">
