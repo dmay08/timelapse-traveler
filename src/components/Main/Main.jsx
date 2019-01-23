@@ -52,14 +52,14 @@ const Main = (props) => {
                 
                 <div id ="b" className="video-wrap">
                   <div className="video">
-                  <iframe width="347" height="200" src="https://www.youtube.com/embed/UceBHNagqck?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="347" height="200" src="https://www.youtube.com/embed/UceBHNagqck?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div className="description"></div>
                 </div>
                 
                 <div id ="c" className="video-wrap">
                   <div className="video">
-                  <iframe width="347" height="200" src="https://www.youtube.com/embed/tzMVczq280Q?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="347" height="200" src="https://www.youtube.com/embed/tzMVczq280Q?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                   </div>
                   <div className="description"></div>
                 </div>
@@ -73,12 +73,28 @@ const Main = (props) => {
               <div className="title-line" id="title-line-right"></div>
             </div>
             
-            <div id="outer-large-wrap">
+            <div className="outer-large-wrap">
               <div id="inner-large-wrap">
                 <div id="big-1"></div>
-                <div id="big-1-description"></div>
+                <div id="big-1-description">
+                  <h1 className="big-title">United States of America</h1>
+                  <p className="big-description">Yosemite National Park, CA | Martha’s Vineyard, MA | San Francisco, CA |
+                    Napa, CA | New York City, NY | Chicago, IL | Duluth, MN | Pittsburgh, PA |
+                    Farmington, CT | Denver, Colorado</p>
+                </div>
               </div>
-            </div>  
+            </div> 
+            <div className="outer-large-wrap-2">
+              <div id="inner-large-wrap">
+                <div id="big-2-description">
+                  <h1 className="big-title">Europe, Asia, USA</h1>
+                  <p className="big-description">Yosemite National Park, CA | Martha’s Vineyard, MA | San Francisco, CA |
+                    Napa, CA | New York City, NY | Chicago, IL | Duluth, MN | Pittsburgh, PA |
+                    Farmington, CT | Denver, Colorado</p>
+                </div>
+                <div id="big-2"></div>
+              </div>
+            </div>   
         </div>
     );
 }
