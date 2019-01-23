@@ -7,10 +7,9 @@ const NavBar = (props) => {
         <div className='NavBar-wrap'>
             <div className='NavBar'>
                 <div className="nav-thirds" id="first">
-                    <p>T / T</p>
                 </div>
                 <div className="nav-thirds" id="second">
-                    <p>Time(lapse) Traveler</p>
+                    <p>T / T</p>
                 </div>
                 <div className="nav-thirds" id="third">
                 </div>

@@ -17,7 +17,7 @@ const Main = (props) => {
                 </div>
                 <div>
                   <div id="about-me">
-                    <h2>Welcome!</h2>
+                    <h2>Time[lapse] Traveler</h2>
                     <p>My name is Danny and I'm a little bit obsessed with shooting 
                       time-lapse videos. This past summer, my wife Noelle and I 
                       traveled the world to say our marriage vows and we were able
@@ -29,7 +29,7 @@ const Main = (props) => {
                       stopping by!
                     </p>
                     <br></br>
-                    <p>-Danny</p>
+                    <p>-D</p>
                   </div>
                 </div>
               </div>
