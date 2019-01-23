@@ -4,20 +4,66 @@ body {
     overflow-x: hidden; 
 }
 
+img {
+    height: 800px;
+}
+
 
 #one {
     width: 100%;
     height: 500px;
     background: grey;
+    overflow: hidden;
+}
+
+#my-pic {
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .15), 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+
 }
 
 #my-info {
     width: 600px;
-    height: 400px;
-    background: rgb(241, 243, 244);
+    height: 350px;
+    background: white;
     margin-top: -100px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .15), 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    display: flex;
 }
+
+#my-pic-wrap {
+    width: 250px;
+}
+
+#about-me {
+    width: 350px;
+    height: 100%;
+}
+
+#about-me h2 {
+    height: 10px;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+}
+
+#about-me p {
+    margin: 0 15px;
+    text-align: left;
+    line-height: 23px;
+    font-size: 13px;
+}
+
+/* ---- NEW ----- */
+#recent-video-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(241, 243, 244);
+}
+/* ---- above = NEW ----- */
 
 #recent-video-text {
     margin-top: 78px;
@@ -27,7 +73,7 @@ body {
     display: flex;
     width: 100%;
     justify-content: center;
-    background: pink;
+    background: rgb(241, 243, 244);
 }
 
 .title-line {
@@ -39,29 +85,28 @@ body {
 
 #wrap {
     width: 100%;
-    height: 600px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: pink;
+    background: rgb(231, 234, 237);
     justify-content: space-between;
 }
 
 #outer-video-wrap {
-    width: 100%;
-    height: 600px;
-    background: pink;
+    width: 1200px;
+    height: 500px;
+    /* background: rgb(241, 243, 244); */
     display: flex;
     flex-direction: row;
     align-items: left;
     justify-content: space-around;
-/*     border: 1px solid black; */
+    /* border: 1px solid black; */
 }
 
 .video-wrap {
     height: 500px;
     width: 350px;
-    min-width: 300px;
     background: white;
     border: 1px solid black;
     margin: 0 20px;
@@ -96,13 +141,32 @@ body {
     min-width: 500px;
     background: rgb(231, 234, 237);
     border: 1px solid black;
-    margin: -100px 20px 0 20px;
+    margin: -100px 25px;
 }
 
 #big-1-description {
     height: 150px;
     width: 500px;
+    min-width: 350px;
     background: rgb(231, 234, 237);
     border: 1px solid black;
-    margin-top: 143px;
+    margin: 143px 23px 0 0;
+}
+
+#outer-large-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(51, 51, 51);
+}
+
+#inner-large-wrap {
+    width: 1200px;
+    height: 500px;
+    /* background: rgb(241, 243, 244); */
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    /* border: 1px solid black; */
 }
