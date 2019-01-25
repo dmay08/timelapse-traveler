@@ -2,6 +2,10 @@ import React from 'react';
 import './Main.css';
 import my_pic from '../../Images/my_pic.jpg';
 import taipei from '../../Images/taipei.jpg';
+import { Player } from 'video-react';
+import '../../../node_modules/video-react/dist/video-react.css';
+
+
 
 const Main = (props) => {
     return (
@@ -75,7 +79,15 @@ const Main = (props) => {
             
             <div className="outer-large-wrap">
               <div id="inner-large-wrap">
-                <div id="big-1"></div>
+                <div id="big-1">
+                {/* <iframe src="https://player.vimeo.com/video/313278149" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay muted></iframe> */}
+                <Player
+                  muted
+                  autoPlay
+                  src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+                  // src="https://player.vimeo.com/video/313278149"
+                />
+                </div>
                 <div id="big-1-description">
                   <h1 className="big-title">United States of America</h1>
                   <p className="big-description">Yosemite National Park, CA | Martha’s Vineyard, MA | San Francisco, CA |
