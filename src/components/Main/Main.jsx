@@ -80,10 +80,10 @@ const Main = (props) => {
             <div className="outer-large-wrap">
               <div id="inner-large-wrap">
                 <div id="big-1">
-                {/* <iframe src="https://player.vimeo.com/video/313278149" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay muted></iframe> */}
                 <Player
                   muted
                   autoPlay
+                  loop
                   src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
                   // src="https://player.vimeo.com/video/313278149"
                 />
@@ -104,7 +104,9 @@ const Main = (props) => {
                     Napa, CA | New York City, NY | Chicago, IL | Duluth, MN | Pittsburgh, PA |
                     Farmington, CT | Denver, Colorado</p>
                 </div>
-                <div id="big-2"></div>
+                <div id="big-2">
+                  <iframe src="https://player.vimeo.com/video/313278149" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen autoplay muted></iframe>
+                </div>
               </div>
             </div>   
         </div>

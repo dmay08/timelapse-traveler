@@ -146,7 +146,7 @@ img {
     width: 660px;
     min-width: 500px;
     background: rgb(231, 234, 237);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: -100px 25px;
 }
 
@@ -198,11 +198,11 @@ img {
 }
 
 #big-2 {
-    height: 394px;
-    width: 700px;
+    height: 360px;
+    width: 660px;
     min-width: 500px;
     background: rgb(231, 234, 237);
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 80px 25px;
 }
 
