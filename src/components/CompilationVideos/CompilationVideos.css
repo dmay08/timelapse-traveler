@@ -1,0 +1,33 @@
+#recent-video-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(245, 245, 245);
+}
+
+#outer-video-wrap {
+    width: 1200px;
+    height: 500px;
+    /* background: rgb(241, 243, 244); */
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+}
+
+.video-wrap {
+    height: 500px;
+    width: 350px;
+    background: white;
+    margin: 0 20px;
+}
+
+.video {
+    height: 200px;
+    box-shadow: 30px 30px rgb(200, 200, 200);
+}
+
+.description {
+    height: 300px;
+}

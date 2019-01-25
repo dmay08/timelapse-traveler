@@ -4,6 +4,7 @@ import my_pic from '../../Images/my_pic.jpg';
 import taipei from '../../Images/taipei.jpg';
 import { Player } from 'video-react';
 import '../../../node_modules/video-react/dist/video-react.css';
+import CompilationVideos from '../CompilationVideos/CompilationVideos';
 
 
 
@@ -44,10 +45,10 @@ const Main = (props) => {
               </div>
             </div>
 
-            <div id="recent-video-wrap">
+            {/* <div id="recent-video-wrap">
               <div id="outer-video-wrap">
                 
-                <div id ="a" class="video-wrap">
+                <div id ="a" className="video-wrap">
                   <div className="video">
                     <iframe width="347" height="200" src="https://www.youtube.com/embed/LAIXZ4evg5M?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
                   </div>
@@ -69,6 +70,10 @@ const Main = (props) => {
                 </div>
               
               </div>
+            </div> */}
+
+            <div>
+              <CompilationVideos />
             </div>
 
             <div className="title-wrap" id="compilation-wrap">
